@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Registro de usuario</div>
+        <form action="CreateNewUser" method="post" >
+                 <input type="text"  name="nombre"  id="nombre" pattern="[A-Za-z]{1,20}" title="Este campo debe de llenarse unicamente con letras" placeholder="Nombre" required />
+
+            <input type="submit" class="btn btn-primary" name="guarda" id="guarda" value="GUARDAR INFORMACION">
+        </form>
+    </body>
+</html>
